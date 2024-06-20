@@ -27,6 +27,25 @@ app.get(
   }
 );
 
+// Chaining route handlers
+const one = (req, res, next) => {
+  console.log("One");
+  next();
+};
+
+const two = (req, res, next) => {
+  console.log("Two");
+  next();
+};
+
+const three = (req, res) => {
+  console.log("Three");
+  res.send("Finished");
+};
+
+// [providind handlers in an array]
+app.get("/chain(.html)?", [one, two, three]);
+
 app.get("/*", (req, res) => {
   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
 });
