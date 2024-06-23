@@ -1,8 +1,27 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const logEvents = require("./middleware/logEvents");
 
 const PORT = process.env.PORT || 3500;
+
+// Custom middleware
+app.use((req, res, next) => {
+  logEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, "logs.txt");
+  console.log(`${req.method} ${req.path}`);
+  next();
+});
+
+// Built in middleware to handle urlencoded data
+// In other words, form data
+// "content-type": application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: false }));
+
+// Built in middlweare for json
+app.use(express.json());
+
+// Serve statis files
+app.use(express.static(path.join(__dirname, "/public")));
 
 app.get("^/$|/index(.html)?", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));

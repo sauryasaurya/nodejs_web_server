@@ -1,0 +1,2 @@
+20240623	16:01:32	bd9cd00d-e17f-45b7-b96f-91c989952688	GET	undefined	/index
+20240623	16:01:32	ccb76283-aa09-4c58-acb0-7cc0ccbcbbf2	GET	undefined	/css/style.css
