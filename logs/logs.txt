@@ -1,2 +1,6 @@
 20240623	16:01:32	bd9cd00d-e17f-45b7-b96f-91c989952688	GET	undefined	/index
 20240623	16:01:32	ccb76283-aa09-4c58-acb0-7cc0ccbcbbf2	GET	undefined	/css/style.css
+20240623	16:06:10	34e8739a-e0f1-4ba6-8625-e0ec8db735d7	GET	undefined	/index
+20240623	16:06:10	ca2fa97f-2078-4e3b-a106-c4cb6da01a6e	GET	undefined	/css/style.css
+20240623	16:06:20	0af9b85f-47d5-4c29-a79f-487f40873cd6	GET	undefined	/cs50
+20240623	16:06:20	64ff3635-05be-4228-9c9c-065431173b28	GET	undefined	/css/style.css
