@@ -1,12 +1,33 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const cors = require("cors");
 const { logger } = require("./middleware/logEvents");
 
 const PORT = process.env.PORT || 3500;
 
 // Custom middleware
 app.use(logger);
+
+// we will use cors after the logger
+const allowedOrigins = [
+  "http://localhost:3500",
+  "https://www.google.com",
+  "localhost:3500",
+];
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 
 // Built in middleware to handle urlencoded data
 // In other words, form data
