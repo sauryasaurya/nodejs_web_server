@@ -104,3 +104,10 @@
 20240624	18:30:05	b0da126c-07cb-41a5-840d-05bd2918679a	GET	https://www.onlinekhabar.com	/index
 20240624	18:30:55	f0031196-ff04-4e09-bd80-3904502f9b86	OPTIONS	https://www.onlinekhabar.com	/index
 20240624	18:30:55	8cda2cff-eb65-446d-a1cf-371b673faa17	GET	https://www.onlinekhabar.com	/index
+20240624	19:05:22	be1765cd-cfc1-4cac-bfac-efae934ebf18	OPTIONS	https://www.onlinekhabar.com	/index
+20240624	19:05:22	72fd44a0-5614-47ce-b0ea-932a222e5525	GET	https://www.onlinekhabar.com	/index
+20240624	19:05:45	ce75d00d-7c01-400d-82ed-fa71da371de0	GET	undefined	/
+20240624	19:05:45	f14d9ed1-8215-410a-a633-f2224a0a5d11	GET	undefined	/css/style.css
+20240625	09:08:36	850c687b-8c11-4d7c-a919-76f5ffa9f30b	GET	undefined	/
+20240625	09:09:17	afc83073-97f9-4d5a-a462-536db5e97a12	GET	undefined	/
+20240625	09:09:17	85f770dd-bd9c-4c93-9199-4bb5a67f4682	GET	undefined	/css/style.css
