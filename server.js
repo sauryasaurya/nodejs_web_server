@@ -4,6 +4,7 @@ const path = require("path");
 const cors = require("cors");
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
+const router = require("./routes/subdir");
 
 const PORT = process.env.PORT || 3500;
 
@@ -41,19 +42,19 @@ app.use(express.json());
 // Serve statis files
 app.use(express.static(path.join(__dirname, "/public")));
 
-app.get("^/$|/index(.html)?", (req, res) => {
+router.get("^/$|/index(.html)?", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));
 });
 
-app.get("/new-page(.html)?", (req, res) => {
+router.get("/new-page(.html)?", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "new-page.html"));
 });
 
-app.get("/old-page(.html)?", (req, res) => {
+router.get("/old-page(.html)?", (req, res) => {
   res.redirect(301, "/new-page");
 });
 
-app.get(
+router.get(
   "/hello(.html)?",
   (req, res, next) => {
     console.log("Attempted to load hello.html");
@@ -81,9 +82,9 @@ const three = (req, res) => {
 };
 
 // [providind handlers in an array]
-app.get("/chain(.html)?", [one, two, three]);
+router.get("/chain(.html)?", [one, two, three]);
 
-app.get("/*", (req, res) => {
+router.get("/*", (req, res) => {
   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
 });
 
