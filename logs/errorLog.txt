@@ -1,1 +1,11 @@
 20240625	09:08:36	6e187afe-64b7-4a6e-aedf-b3b61887bc6f	Error: Not allowed by CORS
+20240625	15:02:22	b639a268-0155-4c3c-b59b-f8bb64684aab	SyntaxError: Expected ',' or '}' after property value in JSON at position 69
+20240625	15:11:45	d6e19ede-a22c-4238-baec-9c2c6cf1ad08	ReferenceError: newEmployee is not defined
+20240625	15:11:50	e6f6e78b-8c85-41fc-8078-6e0096d61b77	ReferenceError: newEmployee is not defined
+20240625	15:11:51	5e727db5-1459-4559-b8cd-1d6de573f678	ReferenceError: newEmployee is not defined
+20240625	15:16:56	50564656-02dc-4e45-952d-641630dc6100	Error: Cannot set headers after they are sent to the client
+20240625	15:17:06	8d33a72d-1f83-4eb1-afa0-4e45578fb0be	Error: Cannot set headers after they are sent to the client
+20240625	15:17:07	cd38d2f4-1da2-4040-90f1-43d99e9b6ebf	Error: Cannot set headers after they are sent to the client
+20240625	15:17:08	3632fa00-6342-4ca1-9107-a50f0f6ce617	Error: Cannot set headers after they are sent to the client
+20240625	15:17:31	bb2c9085-fbbc-47ed-8859-e25074fe288a	Error: Cannot set headers after they are sent to the client
+20240625	15:17:40	d41d8a4a-c595-4e76-9fa0-b9a5e884bb23	Error: Cannot set headers after they are sent to the client
