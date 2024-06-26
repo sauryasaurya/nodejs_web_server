@@ -9,3 +9,5 @@
 20240625	15:17:08	3632fa00-6342-4ca1-9107-a50f0f6ce617	Error: Cannot set headers after they are sent to the client
 20240625	15:17:31	bb2c9085-fbbc-47ed-8859-e25074fe288a	Error: Cannot set headers after they are sent to the client
 20240625	15:17:40	d41d8a4a-c595-4e76-9fa0-b9a5e884bb23	Error: Cannot set headers after they are sent to the client
+20240626	13:55:55	d2516223-3db8-491e-a6cd-6120dd1b5e71	TypeError: Cannot set properties of undefined (setting 'firstName')
+20240626	13:57:00	58cc01e5-8cbe-4554-9888-1a274d726071	SyntaxError: Expected double-quoted property name in JSON at position 37
