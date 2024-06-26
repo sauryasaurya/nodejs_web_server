@@ -513,3 +513,9 @@
 20240626	13:57:00	acd91ffd-7cbc-4b90-9297-0d9a686c3d6a	PUT	undefined	/employees
 20240626	13:57:18	49a0eb1e-da37-47f6-a3fe-12c6aaf495a6	PUT	undefined	/employees
 20240626	13:57:24	b9b4a0f5-5a1e-408e-aa70-dbd28c21bf8d	GET	undefined	/employees
+20240626	14:15:48	99f72d18-e9e3-41fc-a557-77a71413ae42	GET	undefined	/
+20240626	14:15:48	fd7694fa-31e4-4bb2-a736-64046f872c73	GET	undefined	/css/style.css
+20240626	14:54:30	3069418d-24b5-4a0b-bcce-71d90e76b5ce	GET	undefined	/employees
+20240626	14:54:38	4ed4a0d4-7ca9-499e-85b7-392b9df1b7b8	POST	undefined	/employees
+20240626	14:54:39	fbf4b9ce-b153-43a4-9173-8dbfa4da7893	POST	undefined	/employees
+20240626	14:54:41	ff0b9291-7643-44ab-b419-49087be38c84	POST	undefined	/employees
