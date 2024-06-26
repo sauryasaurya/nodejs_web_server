@@ -11,3 +11,16 @@
 20240625	15:17:40	d41d8a4a-c595-4e76-9fa0-b9a5e884bb23	Error: Cannot set headers after they are sent to the client
 20240626	13:55:55	d2516223-3db8-491e-a6cd-6120dd1b5e71	TypeError: Cannot set properties of undefined (setting 'firstName')
 20240626	13:57:00	58cc01e5-8cbe-4554-9888-1a274d726071	SyntaxError: Expected double-quoted property name in JSON at position 37
+20240626	15:42:27	99b11482-6197-4f3f-8239-88e8b846db06	ReferenceError: allowedOrigins is not defined
+20240626	15:42:28	a1783477-2e90-4518-a555-714f04a72bf4	ReferenceError: allowedOrigins is not defined
+20240626	15:42:28	5efaa6cb-26c2-4a1d-b1b2-61be49fc440a	ReferenceError: allowedOrigins is not defined
+20240626	15:42:29	da69f10b-0dec-4a46-9543-77ff31b9623f	ReferenceError: allowedOrigins is not defined
+20240626	15:42:29	19c633cf-2f5e-41b6-983d-d6262a70734c	ReferenceError: allowedOrigins is not defined
+20240626	15:42:30	268e9102-9978-461d-8d6a-9a8f3d4a6a9b	ReferenceError: allowedOrigins is not defined
+20240626	15:42:30	f88ba326-b3c3-4099-9051-da000b20872a	ReferenceError: allowedOrigins is not defined
+20240626	15:42:30	782dc887-cef5-4d82-86ca-1777405777f4	ReferenceError: allowedOrigins is not defined
+20240626	15:42:30	5bf45591-bb3a-412f-aa91-238d81c5b4e8	ReferenceError: allowedOrigins is not defined
+20240626	15:42:31	b91b70cb-a03e-481a-bd14-fe9634a44472	ReferenceError: allowedOrigins is not defined
+20240626	15:42:31	809e51de-22c6-4302-8aca-d5b6918502fd	ReferenceError: allowedOrigins is not defined
+20240626	15:42:31	8dea6fa7-067a-431c-84ab-f64e36614532	ReferenceError: allowedOrigins is not defined
+20240626	15:43:20	020334bb-d0ba-4fce-8145-08ca90225395	ReferenceError: allowedOrigins is not defined

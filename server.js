@@ -4,49 +4,20 @@ const path = require("path");
 const cors = require("cors");
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
-const router = require("./routes/subdir");
+const corsOptions = require("./config/corsOptions");
 
 const PORT = process.env.PORT || 3500;
 
 // Custom middleware
 app.use(logger);
-
-// we will use cors after the logger
-const allowedOrigins = [
-  "http://localhost:3500",
-  "https://www.google.com",
-  "localhost:3500",
-];
-
-const corsOptions = {
-  origin: function (origin, callback) {
-    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  optionsSuccessStatus: 200,
-};
-
 app.use(cors(corsOptions));
 
-// Built in middleware to handle urlencoded data
-// In other words, form data
-// "content-type": application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: false }));
-
-// Built in middlweare for json
 app.use(express.json());
 
-// Serve statis files
 app.use(express.static(path.join(__dirname, "public")));
 
-// app.use("/", express.static(path.join(__dirname, "/public")));
-// app.use("/subdir", express.static(path.join(__dirname, "/public")));
-
 app.use("/", require("./routes/root"));
-app.use("/subdir", require("./routes/subdir"));
 app.use("/employees", require("./routes/api/employees"));
 
 app.get("/*", (req, res) => {
