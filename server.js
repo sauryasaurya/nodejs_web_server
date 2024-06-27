@@ -18,6 +18,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", require("./routes/root"));
+app.use("/register", require("./routes/api/register"));
 app.use("/employees", require("./routes/api/employees"));
 
 app.get("/*", (req, res) => {

@@ -555,3 +555,10 @@
 20240626	15:49:30	a09713b9-9ada-4efe-a34a-2b0e1b3107e7	GET	undefined	/css/style.css
 20240626	15:49:35	9adf9f75-0b5b-44e5-ab1d-f2365d015625	GET	undefined	/index/
 20240626	15:49:35	24610e10-136d-4a63-8258-023957e04631	GET	undefined	/index/css/style.css
+20240626	15:54:20	5acf9761-f1ad-4b58-bd46-a967ca14395f	GET	undefined	/
+20240626	15:54:20	2d3f30e3-bffc-4ad4-9bac-d94d55a57801	GET	undefined	/css/style.css
+20240627	12:05:15	9afb34e7-321c-4db1-8960-109a4ce2e211	POST	undefined	/register
+20240627	12:52:25	7c1257d2-253a-49e3-9fd3-357870318d0d	GET	undefined	/
+20240627	12:52:25	e3a262cb-731d-4226-b76b-6376ddcef856	GET	undefined	/css/style.css
+20240627	12:52:26	c6afbbc8-7f42-4734-8489-9f3553021fd1	GET	undefined	/favicon.ico
+20240627	12:52:56	d3a4a33a-c214-4b13-8a06-69adb0102f10	POST	undefined	/register
